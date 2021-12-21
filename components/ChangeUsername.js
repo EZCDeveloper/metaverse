@@ -4,7 +4,7 @@ function ChangeUsername() {
     const { setUserData, isUserUpdating, userError, user } = useMoralis();
     
     const setUsername= () => {
-        const username = prompt(`Enter you new Username (current: ${user.getUsername()})`);
+        const username = prompt(`Enter your new Username (current: ${user.getUsername()})`);
 
         if (!username) return;
         

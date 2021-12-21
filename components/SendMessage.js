@@ -11,13 +11,13 @@ function SendMessage({ endOfMessagesRef }) {
     if (!message) return;
 
     const Messages = Moralis.Object.extend("Messages");
-    const messages = new Messages ();
+    const messages = new Messages();
 
     messages
       .save({
         message: message,
         username: user.getUsername(),
-        ethAddress: user.get('ethAdrdess')
+        ethAddress: user.get('ethAddress')
       })
       .then(
         (message) => {

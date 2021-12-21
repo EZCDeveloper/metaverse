@@ -4,7 +4,7 @@ import Avatar from "./Avatar";
 import ChangeUsername from "./ChangeUsername";
 
 function Header() {
-    const { user} = useMoralis();
+    const { user } = useMoralis();
 
     return (
         <div className="sticky top-0 p-5 z-50 bg-black shadow-sm text-pink-500 border-b-2 border-pink-700">
@@ -26,8 +26,9 @@ function Header() {
 
                     {/* Welcome Message */}
                     {/* username */}
-                    <h1 className="text-3xl font-bold truncate ">Welcome to Manu metaverse</h1>
-                    <h2>{user.getUsername()}</h2>
+                    <h1 className="text-3xl">Welcome to Manu METAVERSE</h1>
+                    
+                    <h2 className="text-5xl font-bold truncate">{user.getUsername()}</h2>
 
                     {/* Change username component */}
                     <ChangeUsername />
