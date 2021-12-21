@@ -6,7 +6,6 @@ function Login() {
   
   return (
     <div className="bg-black relative text-white">
-      <h1>Hello I am login Screen</h1>
       <div className="flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4">
         {/* Perfil Logo*/}
         <Image
@@ -20,7 +19,7 @@ function Login() {
           onClick={authenticate}
           className="bg-yellow-500 rounded-lg p-5 font-bold animate-pulse"
         >
-          Login to the Metaverse
+          Login to the METAVERSE
         </button>
       </div>
 
