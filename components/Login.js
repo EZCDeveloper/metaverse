@@ -10,7 +10,7 @@ function Login() {
         {/* Perfil Logo*/}
         <Image
           className="object-cover rounded-full"
-          src="https://emanuelzini.com.ar/wp-content/uploads/2021/12/PerfilEma-sinfondo.png"
+          src="https://emanuelzini.com.ar/wp-content/uploads/2021/12/5.jpg"
           height={200}
           width={200}
         />
